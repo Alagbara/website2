@@ -1,0 +1,84 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: cursive;
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+/*Banner section */
+
+#banner {
+  height: 100%;
+  background: url("/Bootstrap/images/main/main.jpg");
+  background-attachment: fixed;
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#banner-content {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+#banner-box {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#banner-box h1 {
+  margin: 0;
+  font-size: 60px;
+  font-weight: 400px;
+  text-transform: capitalize;
+  color: white;
+}
+
+#banner-underline {
+  width: 250px;
+  border: 2.5px solid white;
+  margin: 0 auto;
+}
+
+#banner-box a {
+  font-size: 20px;
+  border: 1px solid white;
+  display: inline-block;
+  padding: 10px 10px;
+  margin-top: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+#banner-box a:hover,
+#banner-box a:focus {
+  color: black;
+  background-color: white;
+}
+
+/* link down the page*/
+#banner-icon a {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+#banner-icon a:hover {
+  opacity: 0.6;
+  color: black;
+  border-color: black;
+}
