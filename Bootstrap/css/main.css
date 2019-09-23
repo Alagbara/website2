@@ -123,3 +123,29 @@ body {
 .services-container {
   padding: 20px 40px;
 }
+
+/* Promise section*/
+.promise-picture {
+  height: 600px;
+  background: url("/Bootstrap/images/promise/promise.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 600px solid transparent;
+  border-right: 150px solid linen;
+}
+.promise-text {
+  height: 600px;
+  background-color: linen;
+  padding: 40px 20px;
+}
+
+.promise-icons p {
+  font-size: 15px;
+  line-height: 1.2em;
+}
+
+#promise .fa {
+  color: blue;
+}
